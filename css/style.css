@@ -12,52 +12,43 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
+  background: linear-gradient(45deg,#5d90bf, #2c3c4a);
+  height: 100vh;
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
 }
 
 .container {
-  max-width: 640px;
-  margin: 50px auto;
+  max-width: 27.5rem;
+  margin: 3.125rem auto;
   background: #fff;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.25rem;
+  border-radius: .625rem;
+  box-shadow: -1rem 1rem 1rem .5rem rgba(0, 0, 0, 0.2);
 }
 
 form input, form label, form button {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
 }
 
 form input {
-  font-size: 24px;
-  height: 50px;
-  padding: 0 20px;
+  font-size: 1.5rem;
+  height: 3.125rem;
+  padding: 0 1.25rem;
 }
 
 form input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: .0625rem solid var(--primary-color);
 }
 
-form button {
-  border: none;
-  background: var(--primary-color);
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 30px;
-}
-
-form button:hover {
-  background: var(--primary-color-darker);
-}
-
-.paragrafo-resultado {
+.paragrafo-resultado, .bad {
   background: rgb(109, 255, 182);
   padding: .625rem 1.25rem;
+}
+
+.bad {
+  background: rgb(255, 148, 148);
 }
