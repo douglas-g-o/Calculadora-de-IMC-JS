@@ -5,4 +5,4 @@ Projeto para calculo de índice de massa corpórea "IMC" utilizando JS, parâmet
 
 Site para ver meu projeto e realizar o calculo: https://calculo-imc-br.netlify.app/
 
-Fique avontade para clonar o projeto e aprimorar os codigos.
+Fique avontade para clonar o projeto.
